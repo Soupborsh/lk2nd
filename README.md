@@ -9,6 +9,8 @@ boot image and then loaded by the stock bootloader as a "secondary" bootloader.
 The real Android boot image is placed into the boot partition with 1 MB offset,
 and then loaded by lk2nd.
 
+This repo tries to be compatible with goodix touchscreen
+
 ## Supported SoCs
 - MSM8952 (MSM8940)
 - MSM8953 (SDM450,SDM625,SDM626)
